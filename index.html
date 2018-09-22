@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="styles/index.css">
+		<title>Color Game</title>
+	</head>
+
+	<body>
+		<header>
+			<p>THE GREAT</p>
+			<p class="enlarge" id="target-color">RGB</p>
+			<p>GUESSING GAME</p>
+		</header>
+
+		<nav>
+			<!-- <div class="reset"><a class="reset" href="#">NEW COLORS</a></div> -->
+			<div class="reset"><button>NEW COLORS</button></div>
+			<div class="status"></div>
+			<div class="levels">
+				<button class="level" id="easy">EASY</button>
+				<button class="level" id="hard">HARD</button>
+			</div>
+		</nav>
+
+		<div class="game">
+			<div class="container-fluid">
+	    	<div class="row">
+	      	<div class="col-sm-4 col-xs-4 active"></div>
+	      	<div class="col-sm-4 col-xs-4 active"></div>
+	      	<div class="col-sm-4 col-xs-4 active"></div>
+	      </div>
+
+	      <div class="row hard">
+	      	<div class="col-sm-4 col-xs-4 active"></div>
+	      	<div class="col-sm-4 col-xs-4 active"></div>
+	      	<div class="col-sm-4 col-xs-4 active"></div>
+	      </div>
+	    </div>
+		</div>
+		<script type="text/javascript" src="color-game.js"></script>
+	</body>
+</html>
