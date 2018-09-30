@@ -1,7 +1,7 @@
 $brand-color: #6997e0;
 $body-color: #2a2d33;
 $content-width: 692px;
-$small-width: 392px;
+$small-width: 352px;
 
 .enlarge {
 	font-size: 48px;
@@ -90,8 +90,8 @@ div[class^="col"] {
 	}
 
 	div[class^="col"] {
-		width: 100px;
-		height: 100px;
+		width: 80px;
+		height: 80px;
 		border-radius: 15px;
 	}
 }
